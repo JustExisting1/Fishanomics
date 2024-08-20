@@ -1,0 +1,9 @@
+{
+  "item.fishanomics.iron_fish" : "Iron Fish",
+  "item.fishanomics.wooden_fishing_rod" : "Wooden Fishing Rod",
+
+  "block.fishanomics.fish_tank" : "Fish Tank",
+
+  "creativetab.fishanomics.fishanomics_items" : "Fishanomics Items",
+  "creativetab.fishanomics.fishanomics_blocks" : "Fishanomics Blocks"
+}
