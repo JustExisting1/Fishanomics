@@ -17,13 +17,13 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Fishanomics.MOD_ID);
 
     public static final Supplier<CreativeModeTab> FISHANOMICS_ITEMS_TAB = CREATIVE_MODE_TAB.register("fishanomics_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.IRON_FISH.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(FishanomicItems.IRON_FISH.get()))
                     .title(Component.translatable("creativetab.fishanomics.fishanomics_items"))
                     .displayItems(((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.IRON_FISH);
-                        output.accept(ModItems.WOODEN_FISHING_ROD);
+                        FishanomicItems.ITEMS_FOR_TABS.forEach(itemDeferredItem -> output.accept(new ItemStack(itemDeferredItem.get())));
                     })).build());
 
+    //Refactor to be the same as above
     public static final Supplier<CreativeModeTab> FISHANOMICS_BLOCK_TAB = CREATIVE_MODE_TAB.register("fishanomics_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.FISH_TANK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(Fishanomics.MOD_ID, "fishanomics_items_tab"))

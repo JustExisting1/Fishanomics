@@ -1,5 +1,8 @@
 {
   "item.fishanomics.iron_fish" : "Iron Fish",
+  "item.fishanomics.wooden_hook" : "Wooden Hook",
+  "item.fishanomics.stone_hook" : "Stone Hook",
+
   "item.fishanomics.wooden_fishing_rod" : "Wooden Fishing Rod",
 
   "block.fishanomics.fish_tank" : "Fish Tank",

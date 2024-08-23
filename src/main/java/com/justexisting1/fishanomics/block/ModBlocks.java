@@ -1,7 +1,7 @@
 package com.justexisting1.fishanomics.block;
 
 import com.justexisting1.fishanomics.Fishanomics;
-import com.justexisting1.fishanomics.item.ModItems;
+import com.justexisting1.fishanomics.item.FishanomicItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -31,7 +31,7 @@ public class ModBlocks {
 
     //Helper to auto register block item
     private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block){
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        FishanomicItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

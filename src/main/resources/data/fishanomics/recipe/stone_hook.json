@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": {
+      "item": "minecraft:cobblestone_slab"
+    },
+    "s": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    "  s",
+    "b b",
+    " b "
+  ],
+  "result": {
+    "count": 1,
+    "id": "fishanomics:stone_hook"
+  }
+}
