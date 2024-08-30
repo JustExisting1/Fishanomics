@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "h": {
+      "item": "fishanomics:diamond_hook"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "t": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "  s",
+    " st",
+    "sht"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fishanomics:diamond_fishing_rod"
+  }
+}

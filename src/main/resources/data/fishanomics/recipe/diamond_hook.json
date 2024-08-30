@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "c": {
-      "tag": "minecraft:stone_tool_materials"
+    "b": {
+      "item": "minecraft:diamond"
     },
     "s": [
       {
@@ -19,11 +19,11 @@
   },
   "pattern": [
     "  s",
-    "c c",
-    " c "
+    "b b",
+    " b "
   ],
   "result": {
     "count": 1,
-    "id": "fishanomics:stone_hook"
+    "id": "fishanomics:diamond_hook"
   }
 }

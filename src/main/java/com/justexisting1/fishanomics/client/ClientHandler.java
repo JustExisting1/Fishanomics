@@ -12,6 +12,11 @@ import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 public class ClientHandler {
     public static void setupClient(){
         registerFishingRodModel(FishanomicItems.WOODEN_FISHING_ROD.get());
+        registerFishingRodModel(FishanomicItems.STONE_FISHING_ROD.get());
+        registerFishingRodModel(FishanomicItems.IRON_FISHING_ROD.get());
+        registerFishingRodModel(FishanomicItems.GOLD_FISHING_ROD.get());
+        registerFishingRodModel(FishanomicItems.DIAMOND_FISHING_ROD.get());
+        registerFishingRodModel(FishanomicItems.NETHERITE_FISHING_ROD.get());
     }
 
     public static void registerFishingRodModel(Item fishingRod){

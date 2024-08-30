@@ -65,10 +65,10 @@ public class FishanomicFishingBobberEntity extends FishingHook {
                         .withParameter(LootContextParams.TOOL, stack)
                         .withParameter(LootContextParams.THIS_ENTITY, this)
                         .withParameter(LootContextParams.ATTACKING_ENTITY, this.getOwner())
-                        .withLuck((float) this.luck + player.getLuck())
+                        .withLuck((float) this.luck + player.getLuck()) //Player luck assumed, try before, in the case of machines
                         .create(LootContextParamSets.FISHING);
                 //Vanilla
-                LootTable loottable = this.level().getServer().reloadableRegistries().getLootTable(BuiltInLootTables.FISHING);
+//                LootTable loottable = this.level().getServer().reloadableRegistries().getLootTable(BuiltInLootTables.FISHING);
                 //List<ItemStack> list = loottable.getRandomItems(lootparams);
 
                 //Fishanomics
@@ -130,7 +130,7 @@ public class FishanomicFishingBobberEntity extends FishingHook {
     private List<ItemStack> getLoot(LootParams lootParams, ServerLevel serverLevel){
         ResourceKey<LootTable> lootTableLocation;
         //I will need to register some loot tables
-        lootTableLocation = FishanomicLootTables.FISH;
+        lootTableLocation = FishanomicLootTables.WOODEN_ROD;
         LootTable lootTable = serverLevel.getServer().reloadableRegistries().getLootTable(lootTableLocation);
         return lootTable.getRandomItems(lootParams);
     }

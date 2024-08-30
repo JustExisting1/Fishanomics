@@ -14,6 +14,8 @@ import net.neoforged.neoforge.event.LootTableLoadEvent;
 public class FishanomicLootTables {
 
     public static final ResourceKey<LootTable> FISH = register("fishing/fish");
+    public static final ResourceKey<LootTable> WOODEN_ROD = register("fishing/tiers/wooden_rod");
+
 
     private static ResourceKey<LootTable> register(String path){
         return BuiltInLootTables.register(ResourceKey.create(Registries.LOOT_TABLE, ResourceLocation.fromNamespaceAndPath(Fishanomics.MOD_ID, path)));

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "fishanomics:diamond_fishing_rod"
+  },
+  "result": {
+    "count": 1,
+    "id": "fishanomics:netherite_fishing_rod"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

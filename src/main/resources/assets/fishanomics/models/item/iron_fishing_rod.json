@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "fishanomics:item/iron_fishing_rod_uncast"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fishanomics:cast": 1
+      },
+      "model": "fishanomics:item/iron_fishing_rod_cast"
+    }
+  ]
+}

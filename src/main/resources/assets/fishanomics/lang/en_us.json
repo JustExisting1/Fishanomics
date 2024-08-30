@@ -2,8 +2,16 @@
   "item.fishanomics.iron_fish" : "Iron Fish",
   "item.fishanomics.wooden_hook" : "Wooden Hook",
   "item.fishanomics.stone_hook" : "Stone Hook",
+  "item.fishanomics.iron_hook" : "Iron Hook",
+  "item.fishanomics.gold_hook" : "Gold Hook",
+  "item.fishanomics.diamond_hook" : "Diamond Hook",
 
   "item.fishanomics.wooden_fishing_rod" : "Wooden Fishing Rod",
+  "item.fishanomics.stone_fishing_rod" : "Stone Fishing Rod",
+  "item.fishanomics.iron_fishing_rod" : "Iron Fishing Rod",
+  "item.fishanomics.gold_fishing_rod" : "Gold Fishing Rod",
+  "item.fishanomics.diamond_fishing_rod" : "Diamond Fishing Rod",
+  "item.fishanomics.netherite_fishing_rod" : "Netherite Fishing Rod",
 
   "block.fishanomics.fish_tank" : "Fish Tank",
 
